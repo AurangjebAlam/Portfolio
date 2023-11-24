@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Commpatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Aurangjeb Alam Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/f28e6468e9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header"> 
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">My Work</a></li>
+                    <li><a href="#pro">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi,I'm <span>Aurangjeb Alam</span> <br> From Karnataka</h1>
+            </div>
+            
+        </div>
+    </div> 
+    <!-- -----------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/me.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a software engineer and looking for opportunities, show my skills</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python Programming</span></li>
+                            <li><span>OOPs Concept</span></li>
+                            <li><span>Data Science</span></li>
+                            <li><span>Machine Learning</span></li>
+                            <li><span>MySQL</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Python Developer Intern</span><br>@Zeetron Networks Pvt Ltd.<br> May/2023-Present</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Technology[2020-Present]</span><br><span>Arya College of Engineering,Jaipur,Rajasthan</span><br>• Artificial Intelligence and Data Science</li>
+                            <li><span>Higher Secondary Education[2018-2020] </span><br><span>Vahini PU College, Tumkur, Karnataka</span><br>•PCMB</li>
+                            <li><span>Secondary Education[2017-2018]</span><br><span>Morarji Desai Residential School For Minorities, Tumkur,Karnataka</span><br>•Common All Subjects</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------services----- -->
+     <div class="projects" id="pro">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-utensils"></i>
+                    <h2>Restaurant Management System</h2>
+                    <p>It is Generate the Bill and store in database.</p>
+                    <a href="https://copyassignment.com/restaurant-management-system-project-in-python/">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-sharp fa-solid fa-clapperboard"></i>
+                    <h2>Movie Recommendation System</h2>
+                    <p>sing Reinforcement Learning,when searching one its Recommendate five movies which related with it.</p>
+                    <a href="https://www.knowledgehut.com/blog/data-science/movie-recommendation-system">Learn more</a>
+                </div>
+                <div>
+                    
+                    <h2>Smart Irrigation System</h2>
+                    <p>Smart irrigation technology uses weather data or soil moisture data to determine the irrigation need of the landscape. Smart irrigation technology includes: These products maximize irrigation efficiency by reducing water waste, while maintaining plant health and quality.</p>
+                    <a href="https://www.hydropoint.com/what-is-smart-irrigation/">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- ------- my work --------->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/python.jpeg" >
+                    
+                        
+                        
+
+                    
+                </div>
+                <div class="work">
+                    <img src="images/ds.jpeg" >
+                </div>
+                <div class="work">
+                    <img src="images/ml.jpg" >
+                </div>
+            </div>
+
+        </div>
+     </div>
+     <!----------contact----------->
+     <div>
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1>Contact</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> alamaurangjeb76@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> +91 9939622312</p>
+                        <div class="social-icons">
+                            
+                            <a href="https://www.linkedin.com/in/aurangjeb-alam-6114691a9/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/AurangjebAlam"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com/_the__peace_/?hl=en"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="https://www.facebook.com/aurangjeb.alam.9277" ><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <a href="images/Aurangjeb Alam.pdf" download class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Mail" required>
+                            <input type="text" name="Number"  placeholder="Phone Number" required>
+                            <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                            <button type="submit" class="btn btn2">submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© AurangjebAlam. All rigths reserved</p>
+                
+            </div>
+
+
+        </div>
+     </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function  opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwGsXjuf7JAunrsqnqHsbilWchmnvniQ6Dr3uGxP6_pFDURpG-PT0zOQSNNdThn_Oc/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Thankyou !"
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },5000)
+                form.reset()
+                
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+</html>
